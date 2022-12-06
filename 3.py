@@ -1,6 +1,7 @@
-#3. Print each character using indexing:
-a="Python"
-b=len(a)
-print(b)
-for i in range(b):
- print(i,'=',a[i])
+#print hello if a==b and c==d 
+a=input("enter 1st number")
+b=input("enter 2nd number")
+c=input("enter 3rd number")
+d=input("enter 4th number")
+if a==b and c==d:
+    print("hello")

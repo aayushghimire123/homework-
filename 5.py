@@ -1,7 +1,6 @@
-#5  multiplication of each element 
-mul=1
-a=123
-b=str(a)
-for i in b:
-     mul=mul*int(i)
-     print(mul)
+#check whether user input number is even or odd 
+num= int(input("enter a number"))
+if num%2==0:
+    print ("The number is even")
+else:
+ print ("The provided number is odd")

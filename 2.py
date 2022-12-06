@@ -1,7 +1,7 @@
-#2. Sum of list:
-sum=0
-a=int(input("Enter a number: "))
-b=str(a)
-for i in b:
-     sum= sum + int(i)
-print(sum)
+#print hello if a=b pr c=d 
+a=input("enter 1st number")
+b=input("enter 2nd number")
+c=input("enter 3rd number")
+d=input("enter 4th number")
+if a==b or c==d:
+    print("hello")

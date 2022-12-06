@@ -1,10 +1,12 @@
-#12 python program to check the validity of username and password input by users.
-username='sita'
-password=1234
-for i in range(3):
-     username1=input("Enter valid name")
-     password1=int(input("enter validpin"))
-     if username==username and password==password==password1:
-         print("logged in ")
-     else:
-         print("invalid ")
+#print the smallest one in the given 3 integers
+num1= int(input("enter first number"))
+num2= int(input("enter second number"))
+num3= int(input("enter third number"))
+smallest=0
+if num1<num2 and num1<num3:
+    smallest=num1
+elif num2<num3:
+    smallest=num2
+else:
+    smallest=num3
+print(smallest," is the smallest ofthe numbers.")
