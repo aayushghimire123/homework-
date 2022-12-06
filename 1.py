@@ -1,9 +1,11 @@
-#print 1 if a=b , print 2 if a>b otherwise print 3
-a = input("enter a number")
-b = input("enter another number")
-if a == b:
-   print(1)
-elif a > b:
- print(2)
+cost=int(input("enter your bike price:"))
+if cost>=100000:
+    t=(15/100)*cost
+    print("your road tax is:",t)
+elif cost>50000 and cost<=100000:
+    t=(10/100)*cost
+    print("your road tax is:",t)
 else:
-   print(3)
+    t=(10/100)*cost
+    print("your road tax is:",t)
+    

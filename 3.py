@@ -1,7 +1,13 @@
-#print hello if a==b and c==d 
-a=input("enter 1st number")
-b=input("enter 2nd number")
-c=input("enter 3rd number")
-d=input("enter 4th number")
-if a==b and c==d:
-    print("hello")
+#Accept the age of 4 people and display the oldest one.
+age1=int(input("enter 1st age:"))
+age2=int(input("enter 2nd age:"))
+age3=int(input("enter 3rd age:"))
+age4=int(input("enter 4th age:"))
+if age1>age2 and age1>age3 and age1>age4:
+    print("oldest one is:",age1)
+elif age2>age1 and age2>age3 and age2>age4:
+    print("oldest one is:",age2)
+elif age3>age1 and age3>age2 and age3>age4:
+    print("oldest one is:",age3)
+else:
+    print("oldest is:",age4)

@@ -1,19 +1,21 @@
-#to accept the marks in 4 subjects and display total marks, percentage and garde 
-
-
-marksa= int(input("enter marks in english"))
-marksb= int(input("enter marks in nepali"))
-marksc= int(input("enter marks in science"))
-marksd= int(input("enter marks in maths"))
-t=(marksa+marksb+marksc+marksd)
-p=(t)/4
-if p>70:
-    print("distinction")
-elif p>60 and p<60:
-    print("first division")
-elif p>40:
-    print("pass")
+#Accept three numbers from the user and display the second largest number.
+num1 = int(input("Enter first number :"))
+num2 = int(input("Enter second number :"))
+num3 = int(input("Enter third number :"))
+ 
+if num1 > num2 and num1 > num3:
+  if num2>num3:
+    print("The second largest number is",num2)
+  else:
+    print("The largest number is",num3)
+elif num2 > num1 and num2 >num3:
+  if num1 > num3:
+    print("The second largest number is", num1)
+  else:
+    print("The second largest number is", num3)
 else:
-    print("fail")
-print(p,"is the percentage")
-print(t,"is the total marks")
+  if num1 > num2:
+    print("The second largest number is",num1)
+  else:
+    print("The second largest number is", num2)
+ 
